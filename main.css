@@ -1,0 +1,28 @@
+body {
+    font-family: helvetica;
+}
+
+#main {
+    height:100vh;
+    background-color: royalblue;
+}
+
+.numbers {
+    border: 2px solid ;
+    background-color: white;
+    margin: 5px;
+}
+
+div > h1 {
+   background-color: grey; 
+}
+
+#header {
+    border: 2px ;
+    background-color:black;
+  
+}
+
+#title {
+    text-align: center;
+}
