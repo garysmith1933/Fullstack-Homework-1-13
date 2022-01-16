@@ -5,24 +5,63 @@ body {
 #main {
     height:100vh;
     background-color: royalblue;
-}
-
-.numbers {
-    border: 2px solid ;
-    background-color: white;
-    margin: 5px;
-}
-
-div > h1 {
-   background-color: grey; 
-}
-
-#header {
-    border: 2px ;
-    background-color:black;
+    position: relative;
   
 }
 
+/*body divs*/
+.sidediv {
+    border: 2px solid ;
+    background-color: white;
+    margin: 20px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+  
+}
+
+/*all h1s in a div*/
+div > h1 {
+    padding: 5px;
+   background-color: lightblue; 
+   height: 50%;
+}
+
+/*3 things about me*/
 #title {
     text-align: center;
+    background-color: lightblue;
+}
+
+/*the main div*/
+.main {
+     border: 2px solid ;
+    background-color: white;
+    position: relative;
+   
+}
+
+/*the second div*/
+.two {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    
+}
+/*the third div*/
+.three {
+    position:absolute;
+    top: 470px;
+    left: 330px;
+}
+
+/*all spans*/
+span {
+    font-weight: bold;
+}
+
+/*the p in the divs*/
+
+.sidediv > p {
+    padding-left: 3px;
 }
